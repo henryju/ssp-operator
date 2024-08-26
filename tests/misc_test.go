@@ -37,6 +37,7 @@ var _ = Describe("Observed generation", func() {
 	})
 
 	AfterEach(func() {
+		// TODO another
 		strategy.RevertToOriginalSspCr()
 		waitUntilDeployed()
 	})
