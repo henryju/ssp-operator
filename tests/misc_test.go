@@ -31,6 +31,7 @@ import (
 var _ = Describe("Observed generation", func() {
 	// TODO
 	BeforeEach(func() {
+		// TODO another issue
 		strategy.SkipSspUpdateTestsIfNeeded()
 		waitUntilDeployed()
 	})
